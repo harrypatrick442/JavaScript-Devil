@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavascriptDevil.jnlp">
+  <information>
+    <title>JavascriptDevil</title>
+    <vendor>SoftwareEngineer</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavascriptDevil.jar" size="7897057" download="eager" />
+    <jar href="lib\closure-compiler-v20161024.jar" size="6973345" download="eager" />
+    <jar href="lib\commons-io-2.5.jar" size="208696" download="eager" />
+    <jar href="lib\org.json-20120521.jar" size="40375" download="eager" />
+    <jar href="lib\rhino.jar" size="1134765" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JavascriptDevil" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="javascriptdevil.JavascriptDevil"  name="JavascriptDevil" />
+  <update check="always"/>
+</jnlp>
